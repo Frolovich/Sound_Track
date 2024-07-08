@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JEU</title>
+    <meta charset="utf-8">
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div id="particles-js"> </div>
+    <div class="count-particles"> <span class="js-count-particles"></span>
+        <footer class="footer" style="text-align: center;">MAGIC MUSIC.</footer>
+        <p class="titre" id="titre">Type to play beat</p>
+        <div class="form" style="text-align: center;"> 
+            <input type="text" placeholder="Tape ton artiste" id="input"> <br>
+            <button type="button" id="btn" class="hvr-float-shadow">PLAY</button>
+        </div>
+        <div class="images">
+            <img data-audio="2pac" src="ressourse/2pac.jpg" width="150px" height="90px" class="img" name="2pac"  >
+            <img  data-audio="bigi" src="ressourse/bigi.jpg" width="150px" height="90px" class="img" name="bigi"  >
+            <img  data-audio="damso" src="ressourse/damso.jpg" width="150px" height="90px" class="img" name="damso"  >
+            <img  data-audio="freezcorleone"  src="ressourse/freezcorleone.jpg" width="150px" height="90px" class="img" name="freezcorleone"  >
+            <img  data-audio="lunatic" src="ressourse/lunatic.jpg" width="150px" height="90px" class="img" name="lunatic" >
+        </div>
+
+    </div>
+
+ 
+    <audio  id="2pac" src="mp3/2Pac.mp3"></audio>
+    <audio  id="bigi" src="mp3/bigi.mp3"></audio>
+    <audio  id="damso" src="mp3/damso.mp3"></audio>
+    <audio id="freezcorleone" src="mp3/freezcorleone.mp3"></audio>
+    <audio id="lunatic" src="mp3/lunatic.mp3"></audio>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="particules.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
